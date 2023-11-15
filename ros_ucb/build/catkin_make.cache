@@ -1,2 +1,0 @@
-beginner_tutorials:learning_tf2-master:mastering_ros_robot_description_pkg-master
--DCATKIN_DEVEL_PREFIX=/home/ros_ucb/devel -DCMAKE_INSTALL_PREFIX=/home/ros_ucb/install -G Unix Makefiles
