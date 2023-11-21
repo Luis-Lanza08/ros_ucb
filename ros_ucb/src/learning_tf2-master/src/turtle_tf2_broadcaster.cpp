@@ -10,7 +10,7 @@ void poseCallback(const turtlesim::PoseConstPtr& msg){
   static tf2_ros::TransformBroadcaster br;
   geometry_msgs::TransformStamped transformStamped;
   
-  transformStamped.header.stamp = ros::Tim1e::now();
+  transformStamped.header.stamp = ros::Time::now();
   transformStamped.header.frame_id = "world";
   transformStamped.child_frame_id = turtle_name;
   transformStamped.transform.translation.x = msg->x;
