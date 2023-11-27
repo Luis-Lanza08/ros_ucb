@@ -23,7 +23,6 @@ void turtlePose_wall(const turtlesim::Pose& msg) {
     else{
       wall_detect = false;
     }
-
 }
 
 int main(int argc, char **argv) {
