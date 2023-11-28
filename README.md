@@ -10,7 +10,9 @@ source /home/ros_ucb/devel/setup.bash
 ejercicio 1.
 
 roslaunch beginner_tutorials exercise1.launch run_node_A:=True run_node_B:=True
+
 roslaunch beginner_tutorials exercise1.launch run_node_A:=True
+
 roslaunch beginner_tutorials exercise1.launch run_node_B:=True
 
 ejercicio 2.
