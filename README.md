@@ -4,7 +4,7 @@ Problemas a la hora de subir el archivo CMakelists.txt general de la direccion: 
 
 este es el codigo que tiene ese archivo CMakeLists.txt
 
-
+```
 # toplevel CMakeLists.txt for a catkin workspace
 # catkin/cmake/toplevel.cmake
 
@@ -36,7 +36,7 @@ if(_res EQUAL 0)
 
 else()
 
-
+```
 
 
 # Solucion de ejercicios:
