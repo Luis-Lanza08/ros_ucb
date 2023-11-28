@@ -39,7 +39,6 @@ rosservice call /toogle_stop_run
 rosservice call /change_speed 5
 
 b.
-
 roscore
 
 rosrun turtlesim turtlesim_node
