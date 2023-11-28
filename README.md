@@ -2,7 +2,7 @@
 Problemas a la hora de subir el archivo CMakelists.txt general de la direccion: ros_ucb/src/CMakeLists.txt
 ![image](https://github.com/Luis-Lanza08/ros_ucb/assets/129080944/bccfbd14-d0e4-49ee-9aba-30a7a1ecb121)
 
-# Solucion de ejericios:
+# Solucion de ejercicios:
 
 source /home/ros_ucb/devel/setup.bash
 
