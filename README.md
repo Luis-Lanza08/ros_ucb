@@ -31,16 +31,28 @@ ejercicio 3.
 
 a.
 rosrun turtlesim turtlesim_node
+
 rosrun message_tests improved_pubvel_toggle
+
 rosservice call /toogle_stop_run
+
 rosservice call /change_speed 5
+
 b.
 
 roscore
+
 rosrun turtlesim turtlesim_node
+
 rosrun message_tests improved_pubvel_toggle
+
 rosrun message_tests spawn_turtle_plus
+
 rosservice call /toogle_stop_run
+
 rosservice call /toggle_forward
+
 rosservice call /change_rate 10
+
 rosservice call /change_speed 5
+
