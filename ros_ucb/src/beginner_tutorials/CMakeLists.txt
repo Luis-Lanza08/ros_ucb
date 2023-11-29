@@ -57,10 +57,11 @@ add_message_files(
 )
 
 ## Generate services in the 'srv' folder
- add_service_files(
+add_service_files(
    FILES
    AddTwoInts.srv
- )
+   distance.srv
+)
 
 ## Generate actions in the 'action' folder
 # add_action_files(
@@ -250,3 +251,19 @@ target_link_libraries(pubvel ${catkin_LIBRARIES})
 
 add_executable(subpose src/subpose.cpp)
 target_link_libraries(subpose ${catkin_LIBRARIES})
+
+
+add_executable(move_second_turtle src/move_second_turtle.cpp)
+target_link_libraries(move_second_turtle ${catkin_LIBRARIES})
+add_dependencies(move_second_turtle ${catkin_EXPORTED_TARGETS} ${${PROJECT_NAME}_EXPORTED_TARGETS})
+
+
+add_executable(distance_checker_plus src/distance_checker_plus.cpp)
+target_link_libraries(distance_checker_plus ${catkin_LIBRARIES})
+add_dependencies(distance_checker_plus beginner_tutorials_gencpp)
+
+
+add_executable(distance_observer src/distance_observer.cpp)
+target_link_libraries(distance_observer ${catkin_LIBRARIES})
+add_dependencies(distance_observer beginner_tutorials_gencpp)
+
